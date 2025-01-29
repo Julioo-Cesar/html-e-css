@@ -1,6 +1,9 @@
+@charset "UTF-8";
+
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 /* Esconde a barra de rolagem mas mantém a rolagem funcionando */
