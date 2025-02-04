@@ -4,7 +4,7 @@
     }
 
     #itens {
-        display: block;
+        display: block !important;
     }
 
     #itens ul li {
@@ -12,6 +12,6 @@
     }
 
     main {
-        width: 768px;
+        max-width: 768px;
     }
 }
