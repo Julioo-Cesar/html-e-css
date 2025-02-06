@@ -1,7 +1,49 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    
+    body {
+        background-image: linear-gradient(to top, rgb(114, 172, 114), purple);
+    }
+
+    section {
+        width: 80vw;
+    }
+
+    #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #inputs {
+        float: right;
+        width: 70%;
+    }
 }
 
 @media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, rgb(114, 172, 114), purple);
+    }
 
+    section {
+        width: 950px;
+    }
+
+    #imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    #inputs {
+        float: left;
+        width: 50%;
+    }
+
+    #inputs h1 {
+        font-size: 2em;
+    }
+
+    #inputs p {
+        font-size: 1.2em;
+    }
 }
