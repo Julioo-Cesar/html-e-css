@@ -5,6 +5,7 @@
 
     section {
         width: 80vw;
+        height: 280px;
     }
 
     #imagem {
@@ -26,6 +27,7 @@
 
     section {
         width: 950px;
+        height: 350px;
     }
 
     #imagem {
@@ -44,6 +46,7 @@
     }
 
     #inputs p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0;
     }
 }
