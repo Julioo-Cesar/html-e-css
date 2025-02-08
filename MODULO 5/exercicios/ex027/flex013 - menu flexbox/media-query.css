@@ -1,0 +1,12 @@
+@media screen and (max-width: 550px) {
+    header{
+        flex-direction: column;
+    }
+
+    header a {
+        display: block;
+        width: 400px;
+        margin: 5px;
+        text-align: center;
+    }
+}
