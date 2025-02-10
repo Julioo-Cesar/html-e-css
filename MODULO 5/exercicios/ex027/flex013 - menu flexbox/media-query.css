@@ -1,12 +1,13 @@
-@media screen and (max-width: 550px) {
-    header{
-        flex-direction: column;
+@media screen and (max-width: 570px) {
+    header, header nav {
+        flex-flow: column nowrap;
     }
 
-    header a {
-        display: block;
-        width: 400px;
-        margin: 5px;
-        text-align: center;
+    header h1 {
+        flex-basis: 50px;
+    }
+
+    header nav a {
+        width: 90vw;
     }
 }
